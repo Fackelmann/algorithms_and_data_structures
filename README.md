@@ -8,4 +8,4 @@ So far you can find:
 
 # References
 
-[Algorigthms, Part 1. Princeton University. Coursera](https://www.coursera.org/learn/algorithms-part1/)
+[Algorithms, Part 1. Princeton University. Coursera](https://www.coursera.org/learn/algorithms-part1/)

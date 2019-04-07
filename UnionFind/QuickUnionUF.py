@@ -72,10 +72,6 @@ class QuickUnionUF:
         """        
         return self.root(p) == self.root(q)
 
-    def unionslow(self, p: int, q: int):
-        i = self.root(p)
-        j = self.root(q)
-        self.id[i] = j
 
     def union(self, p: int, q: int):
         """
@@ -122,25 +118,3 @@ if __name__ == "__main__":
     print("Union 0 and 4")
     quick.union(4,0)
     print(quick.id)
-
-
-
-
-
-    quick=QuickUnionUF(5)
-    print(quick.id)
-    print("Union 0 and 1")
-    quick.union(1,0)
-    print(quick.id)
-    print("Union 2 and 1")
-    quick.union(1,2)
-    print(quick.id)
-    print("Union 3 and 1")
-    quick.union(1,3)
-    print(quick.id)
-    print("Union 0 and 4")
-    quick.union(4,0)
-    print(quick.id)
-
-            
-            
