@@ -25,3 +25,18 @@ We can further decrease the height of the tree by pointing the parent of each no
 Mathematically this is an iterate log function (not proved here), which has almost constant time complexity.
 
 
+# Percolation
+
+We apply the quick Union Find algorithm to the percolation problem. This problem can be stated as follows:
+
+- We have a N-by-N grid of sites
+- Each site is open with probability p
+- System percolates iff top and bottom are connected by open sites
+
+A test bench for the the implementation of this percolation solver is provided. To launch the test simply run:
+
+% pytest
+
+You will need to have _pytest_ installed. If you don't, you can install it via:
+
+% pip install pytest
