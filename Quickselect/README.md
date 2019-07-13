@@ -1,6 +1,6 @@
 # QuickSelect
 
-Implementation [1](#references) and analysis of Quickselect algorithm.
+[Implementation](#references) [1] and analysis of Quickselect algorithm.
 
 ## Algorithm
 Quickselect is an algorithm used to find the _k_th smallest elemetn of a list. The straightforward way to achieve this would be to order the list and then return the _k_th element. This would resulst in a complexity of _O(n log n)_. With Quickselect we obtain an average time complexity of _O(n)_, with a worst case of _O(n^2)_
@@ -19,7 +19,7 @@ n * (1 + 1/2 + 1/4 + 1/8 +...) = 2n -> O(n)
 
 And we can time our algorithm and see that, in fact, this is the case:
 
-![Time complexity of Quickselect](~/time_complexity.png)
+![Time complexity of Quickselect](time_complexity.png)
 
 ## References
 [1] Eppstein, David "Blum-style analysis of Quickselect" https://11011110.github.io/blog/2007/10/09/blum-style-analysis-of.html
