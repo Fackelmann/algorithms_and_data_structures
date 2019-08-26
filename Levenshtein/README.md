@@ -5,6 +5,7 @@ Implementation of algorithm to find Levenshtein distance between 2 strings, usin
 Based on Skiena's [1]
 
 Time complexity O(len(string1)*len(string2))
+
 Space complexity O(len(string1)*len(string2))
 
 Example:
