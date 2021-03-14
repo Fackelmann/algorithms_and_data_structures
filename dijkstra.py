@@ -33,9 +33,7 @@ def find_smallest(path_weight, graph, remaining):
 
 
 def dijkstra(origin, goal, graph):
-    remaining = set()
-    for node in graph.keys():
-        remaining.add(node)
+    remaining = {node for node in graph.keys()}
 
     path_weight = defaultdict(lambda: float('inf'))
     path_weight[origin] = 0
